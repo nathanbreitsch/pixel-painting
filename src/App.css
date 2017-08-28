@@ -1,0 +1,21 @@
+.drawing-canvas {
+  display: block;
+  width: 600px;
+  height: 600px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.drawing-canvas__cell {
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  border: 1px solid black;
+  margin-left: -1px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+
+.drawing-canvas__cell:hover {
+  background-color: grey;
+}
